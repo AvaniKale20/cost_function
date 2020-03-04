@@ -7,6 +7,9 @@ x = [1, 2, 3]
 print(len(x))
 y = [1, 2.5, 3.5]
 print(len(y))
+plt.plot(x,y,label="original line")
+plt.xlabel("x-axis")
+plt.ylabel("x-axis")
 plt.scatter(x, y)
 
 # slope for 1 is 0.5
@@ -23,7 +26,7 @@ def multipy_matrix(features, theta):
         mutated.append(features[i] * theta)
         #     1*0.5=1.5,2*0.5=1.0,3*0.5=1.5
     print(mutated)
-    plt.plot(mutated, y)
+    # plt.plot(mutated, y)
     return mutated
 
 
@@ -45,5 +48,6 @@ def calculate_cost(training_set, Y, h):
 for i in range(len(slope)):
     hypothesis_value = multipy_matrix(x, slope[i])
     calculate_cost(len(x), y, hypothesis_value)
-
+plt.legend()
 plt.show()
+
