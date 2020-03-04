@@ -15,17 +15,35 @@ plt.scatter(x, y)
 slope = [0.5, 1.5, 1]
 
 
+# mutiply the original X values by the theta
+# to produce hypothesis values for each X
 def multipy_matrix(features, theta):
     mutated = []
     for i in range(len(x)):
         mutated.append(features[i] * theta)
         #     1*0.5=1.5,2*0.5=1.0,3*0.5=1.5
     print(mutated)
+    plt.plot(mutated, y)
     return mutated
+
+
+# calculate cost by looping each sample
+# subtract hyp(x) from y
+# square the result
+# sum them all together
+def calculate_cost(training_set, Y, h):
+    total = 0
+    for i in range(training_set):
+        error_squared = (Y[i] - h[i]) ** 2
+        # print(error_squared)
+        total = total + error_squared
+
+    return total * (1 / (2 * training_set))
 
 
 # calculate hypothesis value
 for i in range(len(slope)):
-    multipy_matrix(x, slope[i])
+    hypothesis_value = multipy_matrix(x, slope[i])
+    calculate_cost(len(x), y, hypothesis_value)
 
 plt.show()

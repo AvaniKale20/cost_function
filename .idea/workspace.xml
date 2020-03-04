@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d236c7-4eee-4f11-8d4b-9110cd39e822" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CostFunction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/costFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/cost.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,38 +122,46 @@
       <option name="project" value="LOCAL" />
       <updated>1583311371849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[avani]Add. should return hypothesis value">
+      <created>1583311984878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583311984878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[avani]Add. should plot the value of x and y" />
-    <option name="LAST_COMMIT_MESSAGE" value="[avani]Add. should plot the value of x and y" />
+    <MESSAGE value="[avani]Add. should return hypothesis value" />
+    <option name="LAST_COMMIT_MESSAGE" value="[avani]Add. should return hypothesis value" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="125" key="CommitChangelistDialog2" timestamp="1583311371651">
+    <state x="473" y="125" key="CommitChangelistDialog2" timestamp="1583313367420">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1583311371651" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1583311897161">
+    <state x="473" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1583313367420" />
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1583313297712">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583311637539" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1583311897161" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1583311897160">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583312939675" />
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1583313297712" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1583313297711">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583311637538" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1583311897160" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1583311897159">
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583312939674" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1583313297711" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1583313297710">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583311637537" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1583311897159" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1583311897160">
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583312939673" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1583313297710" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1583313297711">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583311637538" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1583311897160" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583312939675" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1583313297711" />
     <state width="1659" height="363" key="GridCell.Tab.1.bottom" timestamp="1583236722827">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
